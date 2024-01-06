@@ -1,9 +1,15 @@
+/*
+  title: Mindmap,
+  description: A script that allows you to visualize your data as a mind map,
+  Author: Benjamin Hatton
+*/
 const config = input.config({
     title: 'MindMap',
     description: 'A script that lets you visualize your data as a mind map',
     items: [
         input.config.text('mapURL', {
             label: 'URL of the mindmap.html file',
+            description: 'You can use https://basteks.github.io/mindmap/mindmap.html for testing purpose'
         }),
         input.config.table('table', {
             label: 'Table',
